@@ -1,5 +1,3 @@
-[![Build Status](https://github.com/robertmeans/robertmeans-wp)](http://www.robertmeans.com)
-
 robert_means
 ===
 
