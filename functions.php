@@ -116,7 +116,7 @@ add_action( 'widgets_init', 'robert_means_widgets_init' );
 function robert_means_scripts() {
 	wp_enqueue_style( 'robert_means-style', get_stylesheet_uri() );
 
-	wp_enqueue_style( 'robert_means-google-fonts', 'http://fonts.googleapis.com/css?family=Lato:100,400,700,900,400italic,900italic|PT+Serif:400,700,400italic,700italic|Aclonica:400,700' );
+	wp_enqueue_style( 'robert_means-google-fonts', 'http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800,300italic,400italic,600italic|Droid+Serif:400,700' );
 
 	wp_enqueue_style( 'robert_means-fontawesome', 'http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' );
 
