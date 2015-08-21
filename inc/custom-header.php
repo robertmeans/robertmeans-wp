@@ -26,9 +26,9 @@ function robert_means_custom_header_setup() {
 	add_theme_support( 'custom-header', apply_filters( 'robert_means_custom_header_args', array(
 		'default-image'          => '',
 		'default-text-color'     => 'ffffff',
-		'width'                  => 1000,
-		'height'                 => 250,
-		'flex-height'            => true,
+		'width'                  => 1280,
+		'height'                 => 400,
+		'flex-height'            => false,
 		'wp-head-callback'       => 'robert_means_header_style',
 		'admin-head-callback'    => 'robert_means_admin_header_style',
 		'admin-preview-callback' => 'robert_means_admin_header_image',
