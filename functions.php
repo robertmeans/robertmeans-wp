@@ -120,9 +120,7 @@ function robert_means_scripts() {
 
 	wp_enqueue_style( 'robert_means-fontawesome', 'http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' );
 
-	wp_enqueue_script( 'robert_means-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
-
-	wp_enqueue_script( 'robert_means-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20130115', true );
+	wp_enqueue_script( 'robert_means-js', get_template_directory_uri() . '/js/scripts.js', array('jquery'), '20150821', true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
